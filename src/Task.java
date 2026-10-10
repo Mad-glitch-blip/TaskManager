@@ -26,6 +26,10 @@ public class Task {
         this.completed = true;
     }
 
+    public void markIncomplete() {
+        this.completed = false;
+    }
+
     @Override
     public String toString() {
         String status;
